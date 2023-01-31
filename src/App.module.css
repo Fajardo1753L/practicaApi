@@ -1,0 +1,31 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+.Content{
+
+   display: grid;
+   grid-template-columns: 50% 50% ;
+   grid-template-rows: 100%;
+   height: 100vh;     
+   align-items: center;
+}
+
+@media (max-width: 830px) {
+
+    
+.Content{
+   display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows: 50% 50%;
+   
+
+}
+
+
+
+    
+}
