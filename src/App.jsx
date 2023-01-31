@@ -8,6 +8,10 @@ function App() {
   const [num, setNum] = useState([]);
 
   useEffect(() => {
+
+      document.title = "Rick And Morty"
+      
+
     const persons = async () => {
       const request = await fetch("https://rickandmortyapi.com/api/character");
       const data = await request.json();
