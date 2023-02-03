@@ -63,3 +63,26 @@
     }
     
 }
+
+@media (max-width: 414px) {
+
+	.parrafo{
+        font-size: 1em;
+    }   
+    .imagen{
+        width: 210px;
+    }
+		
+	}
+
+    @media (max-width: 230px) {
+
+        .parrafo{
+            font-size: 0.5em;
+        }   
+        .imagen{
+            width: 150px;
+        }
+            
+        }
+    

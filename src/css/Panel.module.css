@@ -57,3 +57,38 @@
 }    
     
 }
+
+@media (max-width: 414px) {
+
+	.myButton{
+	
+		width: 200px;
+		
+	}
+	.titlePanel{
+
+		
+		font-size: 2em;
+		
+	
+	}    
+		
+	}
+
+	@media (max-width: 230px) {
+		.myButton{
+	
+			width: 150px;
+			
+		}
+		.titlePanel{
+	
+			
+			font-size: 1em;
+			
+		
+		}  
+		
+			
+		}
+	
